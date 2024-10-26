@@ -73,4 +73,7 @@ def furthest_from_origin(values: list[Point]):
             greatest_index = i
 
     return greatest_index
-#The purpose of this function is to
+#The purpose of this function is to take in a list of points from the Point class and return the index of the point furthest from the origin.
+#The input of this function is a list of points and the output is an index value. The function first checks that the list is non-empty. Then it finds the distance from the origin for each point and compares it with 0 stored in greatest_distance. For each iteration of  the loop the distance and greatest_distance are compared with each index value and are swapped given the condition is true. Finally the greatest index is returned.
+#def furthest_from_origin(values: list[Point]):
+#Refer to lab5_tests.py/data_tests.py for tests
