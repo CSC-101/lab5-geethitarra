@@ -1,4 +1,3 @@
-from operator import index
 from data import Time, Point
 import math
 # Write your functions for each part in the space below.
